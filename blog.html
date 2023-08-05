@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./blog.css">
+</head>
+<body>
+    
+
+        <header>
+            <div class="logo">
+                <h2>Blog</h2>
+            </div>
+
+            <div id="list" class="name">
+            <ul >
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Coffee</a></li>
+                <li><a href="">Contact</a></li>
+           </ul>
+        </div>
+            <i id="menu" class="fa-solid fa-bars"></i>
+        
+        </header>
+<div class="call">
+  <a href="#" onclick="callPopupHandler()"> <img src="./images/phone-call (1).png" width="40px" style="margin-bottom: 10px;" alt=""></a> 
+ <a href="./chate.html"> <img src="./images/chat.png" width="40px" alt=""></a>  
+
+    
+</div>
+
+<div class="popup-call" id="popupId">
+    <p>Live Call initiated.Please wait for an agent to contact.</p>
+    <button onclick="closePopupHandler()">Close</button>
+</div>
+        <section class="hero-section">
+            <div class="hero">
+                <div class="nav-details">
+                    <h2>Featured</h2>
+                    <h1>Breaking Into Product Design Advice from Untitled Founder</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere perferendis quae hic, deserunt omnis aliquam eum vel? Dignissimos adipisci maxime dolores quaerat. Deserunt amet cupiditate fugiat ipsa? Quaerat, perferendis!</p>
+                    
+                </div>
+           </div>
+        </section>
+
+
+        <div class="head container">
+            <h1>Recent Blog Post</h1>
+        </div>
+            
+
+        <section class="cards container">
+            <div class="card">
+                <div class="card-top" style="background-image: url(./images/photo-1562564055-71e051d33c19.jpg);"></div>
+                <div class="card-bottom">
+                    <h2>Building you'r API Stack</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perferendis atque illo illum laudantium debitis repudiandae.</p>
+                </div>
+               
+            </div>
+            <div class="card">
+                <div class="card-top" style="background-image: url(./images/leader.jpg);"></div>
+                <div class="card-bottom">
+                    <h2>Bill Walsh Leadership Lessons</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perferendis atque illo illum laudantium debitis repudiandae.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-top" style="background-image: url(./images/js.jpg);"></div>
+                <div class="card-bottom">
+                    <h2>Top 10 Javascript Frameworks</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perferendis atque illo illum laudantium debitis repudiandae.</p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-top" style="background-image: url(./images/wai.jpg);"></div>
+                <div class="card-bottom">
+                    <h2>What is Wireframing ?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perferendis atque illo illum laudantium debitis repudiandae.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-top" style="background-image: url(./images/python.jpg);"></div>
+                <div class="card-bottom">
+                    <h2>What is Python ?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perferendis atque illo illum laudantium debitis repudiandae.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-top" style="background-image: url(./images/idea.jpg);"></div>
+                <div class="card-bottom">
+                    <h2>Building you'r API Stack</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perferendis atque illo illum laudantium debitis repudiandae.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-top" style="background-image: url(./images/lea.jpg);"></div>
+                <div class="card-bottom">
+                    <h2>Building you'r API Stack</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perferendis atque illo illum laudantium debitis repudiandae.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-top" style="background-image: url(./images/12.jpg);"></div>
+                <div class="card-bottom">
+                    <h2>Building you'r API Stack</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perferendis atque illo illum laudantium debitis repudiandae.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-top" style="background-image: url(./images/13.jpg);"></div>
+                <div class="card-bottom">
+                    <h2>Building you'r API Stack</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perferendis atque illo illum laudantium debitis repudiandae.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="btn-reade">
+            <button>Loding More...</button>
+        </section>
+
+
+        <footer class="footer">
+              <h1>Daniya Jose</h1>
+              <h3>daniyajose815@gmail.com</h3>
+              <h3>7591959762</h3>
+        </footer>
+
+
+
+<script src="./blog.js"></script>
+</body>
+</html>

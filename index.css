@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 12px;
+}
+
+form{
+    max-width: 400px;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    border-radius: 8px;
+}
+form input{
+   width: 290px;
+   margin-bottom: 4px;
+   padding: 10px;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+input[type='submit']{
+    background-color: black;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+#error{
+    color: red;
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+#errpas{
+    color: red;
+    font-size: 10px;
+    margin-bottom: 4px;
+
+}
+#suc1{
+    color: green;
+    font-size: 10px;   
+}
+#suc{
+    color: green;
+    font-size: 10px;
+}
+
+
+
+
+.popup-call{
+    width: 450px;
+    background: rgb(241, 241, 241);
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    color: black;
+    visibility: hidden;
+    transition: all 0.7s ease;
+}
+.popup-active{
+    position: fixed;
+    top: 10%;
+    transform: translate(-50%,-50%) scale(1);
+    visibility: visible;
+
+    
+}
+.popup-call p{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.popup-call button{
+    padding: 5px 19px;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+border: none;
+outline: none;
+border-radius: 6px;
+margin-bottom: 10px;
+cursor: pointer;
+}

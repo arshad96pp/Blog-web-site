@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="popup-call" id="popupId">
+        <p>invalid credentials</p>
+        <button onclick="closePopupHandler()">Close</button>
+    </div>
+
+    <form action="./blog.html" onsubmit="return handilLogin() ">
+        <div class="inp">
+            <input type="text" id="username" placeholder="username" required>
+          
+            <p id="error"></p>
+        </div>
+        <div class="inp">
+            <input type="password" id="password" placeholder="password" required>
+           
+            <p id="errpas"></p>
+        </div>
+        <div class="inp">
+            <input type="submit" value="submit" onclick="callPopupHandler()">
+        </div>
+
+        <a href="signup.html">Create a account</a>
+
+    </form>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
